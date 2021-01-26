@@ -22,3 +22,5 @@ print(nth_prime(10001))
 
 #source: https://codereview.stackexchange.com/questions/188053/project-euler-problem-7-in-python-10001st-prime-number
 #method used is basically identical to top comment as i did not know of the upper bound for the nth prime or the sieve of eratosthenes
+#something else thats cool is that i*i can be used as the start for the search in find_primes as all the multiples smaller than
+#the square are multiples of smaller primes
